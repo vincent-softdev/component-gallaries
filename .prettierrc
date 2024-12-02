@@ -3,5 +3,13 @@
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "es5",
-  "endOfLine": "auto"
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": "*.scss",
+      "options": {
+        "parser": "scss"
+      }
+    }
+  ]
 }
